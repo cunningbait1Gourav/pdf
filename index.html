@@ -4,12 +4,106 @@
 		<title>
 			campgrounds
 		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		<style>
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.disp
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+
+svg{
+  width:100%;
+  position:relative;
+}
+.holder{
+  position:absolute;
+  top: 100px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.heading{
+  font-size:40px;
+  font-weight:500;
+  margin:5px;
+  z-index:1;
+  width:100%;
+  color:#f5f6fa;
+  text-align:center;
+}
+.tagline{
+  font-size: 15px;
+  font-weight: 200;
+  width: 100%;
+  color:#f5f6fa;
+  text-align:center;
+}
+@media screen and (max-width: 992px) {
+  .heading
+  {
+  	font-size:20px
+  }
+  .img2
+  {
+  	width:250px;
+  	height:350px;
+  }
+}
+
+	</style>
 	</head>
 	<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" preserveAspectRatio="none">
+<defs>
+    <linearGradient id="myGradient" gradientTransform="rotate(45)">
+      <stop offset="5%"  stop-color="#fc6767" />
+      <stop offset="95%" stop-color="#ec008c" />
+    </linearGradient>
+  </defs>
+  <path d="M 0,0
+         L 0,250
+         Q 750,500 1500,250
+         L 1500, 0
+         Z" fill="url('#myGradient')" />
+</svg>
+<div class="holder">
+  <p class="heading">Dearest Shiv,
+
+HAPPY BIRTHDAY</p>
+  <p class="tagline">
+  	This book is a small gift we present to the most adorable <br>
+  	yet the most notorious kid (not a kid anymore tho!), SHIVAM SINHA...<br>
+
+  	Wish you a wonderful 20th, Enjoy 
+<br>
+We wish you all the success and prosperity.
+<br>
+May you get whatever you wish for 
+<br>
+Loads of love
+  </p>
+</div>
+<div class="disp">
+<img src="./shivam.jpeg" class="img2">
+</div>
+<br><br><br><br>
+
 	
-		  <iframe frameborder="0" width="640" height="480" src="https://drive.google.com/file/d/1i1ESMAkva0sXbv8p4MhuwtwkbSrRK4hv/view?usp=sharing" crossorigin="anonymous">
- 		 </iframe>
+		  <embed frameborder="0" width="100%" height="480" src="./pdf.pdf">
+ 		 </embed>
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 	</body>
