@@ -1,0 +1,45 @@
+*{
+    border:0px;
+    margin:0px;
+    background-color: black;
+}
+
+body{
+    color: #fff;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 10px 0px 0px;
+}
+
+.hide
+{
+    display:none;
+}
+.top{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+.head
+{
+    color: whitesmoke;
+    padding:10px;
+    font-family: 'Raleway', sans-serif;
+}
+.changer
+{
+    font-size: 2rem;
+    color:whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+.padd
+{
+    
+    padding-top:100px;
+    padding-left:100px
+}
