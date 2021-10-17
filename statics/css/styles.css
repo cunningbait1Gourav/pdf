@@ -2,6 +2,7 @@
     border:0px;
     margin:0px;
     background-color: black;
+    overflow-x: hidden;
 }
 
 body{
@@ -25,6 +26,10 @@ nav{
     flex-wrap: wrap;
     font-size: 1.5rem;
 }
+.even
+{
+    justify-content: space-evenly;
+}
 .head
 {
     color: whitesmoke;
@@ -43,3 +48,65 @@ nav{
     padding-top:100px;
     padding-left:100px
 }
+about
+{
+    background-color: #a6c7f7;
+    color:	#365b96;
+}
+.h{
+    height:450px;
+}
+.light
+{
+    background-color: #a6c7f7;
+}
+.small
+{
+    size:0.50rem;
+    padding-left: 10%;
+    padding-right:10%;
+}
+.hidey
+{
+    overflow-y: hidden;
+}
+h1{
+    margin:0px;
+}
+.big
+{
+    color:#21494a;
+    font-size:2rem;
+    padding-top:20px;
+}
+.big2{
+    color:	#3a607a;
+    font-size:1.5rem;
+}
+.down
+{
+    position:relative;
+    top:20px;
+}
+.discover__container {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .discover__container,
+  .place__container {
+    padding-top: 2rem;
+  }
+  .discover__card {
+    width: 237px;
+  }
+  .discover__container {
+    width: 700px;
+  }
+  .discover__data {
+    left: 1.5rem;
+    bottom: 2rem;
+  }
+  .discover__title {
+    font-size: var(--h2-font-size);
+  }
