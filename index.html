@@ -1,116 +1,230 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>
-			campgrounds
-		</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-		<style>
-body{
-  padding:0;
-  margin:0;
-  font-family: 'Poppins', sans-serif;
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="statics/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Home page</title>
+</head>
+<body>
+
+  <main>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: transparent;">
+      <div class="container-fluid" style="padding-left: 10%;padding-right:10%">
+        <a class="navbar-brand collapse navbar-collapse" href="#">
+          <img src="statics/img/bitlogo.png" alt="" width="35" height="50" class="d-inline-block align-text-top">
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="statics/img/Clogo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="width:200px"></div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="head">HOME</div>
+        <div class="head">BLOGS</div>
+        <div class="head">RESEARCH</div>
+        <div class="head">STUDENT'S PORTAL</div>
+        <div class="head">CONTACT US</div>
+        <div class="head">JOIN US</div>
+        </div>
+      </div>
+    </nav>
+  
+    <hr style="color:blanchedalmond; margin:0px 40px 0px 40px">
+    <div class="top padd">
+        <div class="changer">MODEL CLUB<br><hr><br>Technical by technique</div>
+        <div id="t3js"></div>
+    </div>
+    <div class="print">
+    </div>
+    <div style="overflow-x: hidden;"><svg id="visual" viewBox="0 0 1366 450" width="1366" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 123L28.5 132C57 141 114 159 171 159C228 159 285 141 341.8 125.2C398.7 109.3 455.3 95.7 512.2 93.3C569 91 626 100 683 99.3C740 98.7 797 88.3 854 84.7C911 81 968 84 1024.8 81.7C1081.7 79.3 1138.3 71.7 1195.2 71.7C1252 71.7 1309 79.3 1337.5 83.2L1366 87L1366 0L1337.5 0C1309 0 1252 0 1195.2 0C1138.3 0 1081.7 0 1024.8 0C968 0 911 0 854 0C797 0 740 0 683 0C626 0 569 0 512.2 0C455.3 0 398.7 0 341.8 0C285 0 228 0 171 0C114 0 57 0 28.5 0L0 0Z" fill="#000000"></path><path d="M0 177L28.5 183.7C57 190.3 114 203.7 171 205.2C228 206.7 285 196.3 341.8 184.3C398.7 172.3 455.3 158.7 512.2 150.3C569 142 626 139 683 133C740 127 797 118 854 114.3C911 110.7 968 112.3 1024.8 114.7C1081.7 117 1138.3 120 1195.2 122.2C1252 124.3 1309 125.7 1337.5 126.3L1366 127L1366 85L1337.5 81.2C1309 77.3 1252 69.7 1195.2 69.7C1138.3 69.7 1081.7 77.3 1024.8 79.7C968 82 911 79 854 82.7C797 86.3 740 96.7 683 97.3C626 98 569 89 512.2 91.3C455.3 93.7 398.7 107.3 341.8 123.2C285 139 228 157 171 157C114 157 57 139 28.5 130L0 121Z" fill="#002a4e"></path><path d="M0 240L28.5 246C57 252 114 264 171 261.7C228 259.3 285 242.7 341.8 226.8C398.7 211 455.3 196 512.2 190.8C569 185.7 626 190.3 683 190.3C740 190.3 797 185.7 854 177.3C911 169 968 157 1024.8 157C1081.7 157 1138.3 169 1195.2 178C1252 187 1309 193 1337.5 196L1366 199L1366 125L1337.5 124.3C1309 123.7 1252 122.3 1195.2 120.2C1138.3 118 1081.7 115 1024.8 112.7C968 110.3 911 108.7 854 112.3C797 116 740 125 683 131C626 137 569 140 512.2 148.3C455.3 156.7 398.7 170.3 341.8 182.3C285 194.3 228 204.7 171 203.2C114 201.7 57 188.3 28.5 181.7L0 175Z" fill="#254d76"></path><path d="M0 312L28.5 321C57 330 114 348 171 358.5C228 369 285 372 341.8 363.7C398.7 355.3 455.3 335.7 512.2 322.8C569 310 626 304 683 301.8C740 299.7 797 301.3 854 308.2C911 315 968 327 1024.8 330.7C1081.7 334.3 1138.3 329.7 1195.2 322.8C1252 316 1309 307 1337.5 302.5L1366 298L1366 197L1337.5 194C1309 191 1252 185 1195.2 176C1138.3 167 1081.7 155 1024.8 155C968 155 911 167 854 175.3C797 183.7 740 188.3 683 188.3C626 188.3 569 183.7 512.2 188.8C455.3 194 398.7 209 341.8 224.8C285 240.7 228 257.3 171 259.7C114 262 57 250 28.5 244L0 238Z" fill="#50739f"></path><path d="M0 361L28.5 367.8C57 374.7 114 388.3 171 396.7C228 405 285 408 341.8 401.2C398.7 394.3 455.3 377.7 512.2 370.8C569 364 626 367 683 364.8C740 362.7 797 355.3 854 355.3C911 355.3 968 362.7 1024.8 364.2C1081.7 365.7 1138.3 361.3 1195.2 359.2C1252 357 1309 357 1337.5 357L1366 357L1366 296L1337.5 300.5C1309 305 1252 314 1195.2 320.8C1138.3 327.7 1081.7 332.3 1024.8 328.7C968 325 911 313 854 306.2C797 299.3 740 297.7 683 299.8C626 302 569 308 512.2 320.8C455.3 333.7 398.7 353.3 341.8 361.7C285 370 228 367 171 356.5C114 346 57 328 28.5 319L0 310Z" fill="#7b9cca"></path><path d="M0 451L28.5 451C57 451 114 451 171 451C228 451 285 451 341.8 451C398.7 451 455.3 451 512.2 451C569 451 626 451 683 451C740 451 797 451 854 451C911 451 968 451 1024.8 451C1081.7 451 1138.3 451 1195.2 451C1252 451 1309 451 1337.5 451L1366 451L1366 355L1337.5 355C1309 355 1252 355 1195.2 357.2C1138.3 359.3 1081.7 363.7 1024.8 362.2C968 360.7 911 353.3 854 353.3C797 353.3 740 360.7 683 362.8C626 365 569 362 512.2 368.8C455.3 375.7 398.7 392.3 341.8 399.2C285 406 228 403 171 394.7C114 386.3 57 372.7 28.5 365.8L0 359Z" fill="#a6c7f7"></path></svg></div>
+    <about>
+      <div class="light h">
+      <h1 class="top even light hidey">	&#60;ABOUT&#62;</h1>
+      <div class="top even small light">
+        Model Club is an attempt to manifest the technical mind set, personality development and success stories of this Premier Technical Institution of Jharkhand. This club is the only technical club established by the BIT administration in early 60's for conducting technical activities for the young technocrats of our college. After its establishment, in early seventies this club is on the way to scaling new heights every year continuously by organizing various technical events.
+
+Since then, Model Club is an organization that is inherently associated with diffusion of science and technology in would-be technocrats. Concentrated solely in the BIT Sindri campus, the organization strives to sync the college with latest technological trends by Tech-Events, Workshops, Seminar and likes. Model Club’s unexpected success years after year are backed up by sizeable portion of Students, Professors, Commercial Giants and Intellectuals alike.
+
+Model Club is hub of about 60 committed students(about 15 students belonging to every year) who have been extracted out of the best minds of the state and country making it the best work force available possible. Model Club members are trained to excel at professional capacities through methods, which are prerequisites for personality development, in the weekly rendezvous. Presently, Model Club members solely indulge in the execution of the technical revolution in the campus. Round the year Model Club organizes Workshops, Seminars, Guest-Lectures, Invited Talks and alike events including a Mega Tech-Fest named
+      </div>
+      <h1 class="top even big light hidey">	&#8220;SANDHAAN&#8221;</h1>
+     <div class="top even light down"><button class="btn btn-success">JOIN US</button></div> 
+      </div>
+    </about>
+  <div class="light" style="width:100%">
+  <div class="light offset-3 hidey" style="height:100%;width:50%;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </div>
+</main>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script type="module">
+        import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.116.1/build/three.module.js';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.116.1/examples/jsm/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.116.1/examples/jsm/loaders/GLTFLoader.js';
+import { RGBELoader } from 'https://cdn.jsdelivr.net/npm/three@0.116.1/examples/jsm/loaders/RGBELoader.js';
+import { RoughnessMipmapper } from 'https://cdn.jsdelivr.net/npm/three@0.116.1/examples/jsm/utils/RoughnessMipmapper.js';
+
+var container, stats, controls;
+var camera, scene, renderer;
+
+var raycaster, mouse;
+
+init();
+
+function init() {
+
+  container = document.querySelector( '.print' );
+ 
+
+  camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.25, 20 );
+  camera.position.set( - 1.8, 0.9, 2.7 );
+
+  scene = new THREE.Scene();
+  
+  raycaster = new THREE.Raycaster();
+  mouse = new THREE.Vector2()
+
+  new RGBELoader()
+    .setDataType( THREE.UnsignedByteType )
+    .setPath( 'https://threejs.org/examples/textures/equirectangular/' )
+    .load( 'royal_esplanade_1k.hdr', function ( texture ) {
+
+    var envMap = pmremGenerator.fromEquirectangular( texture ).texture;
+
+    
+    scene.environment = envMap;
+
+    texture.dispose();
+    pmremGenerator.dispose();
+
+    render();
+
+    // model
+
+    // use of RoughnessMipmapper is optional
+    var roughnessMipmapper = new RoughnessMipmapper( renderer );
+
+    var loader = new GLTFLoader().setPath( 'https://threejs.org/examples/models/gltf/DamagedHelmet/glTF/' );
+    loader.load( 'DamagedHelmet.gltf', function ( gltf ) {
+
+      gltf.scene.traverse( function ( child ) {
+
+        if ( child.isMesh ) {
+
+          roughnessMipmapper.generateMipmaps( child.material );
+
+        }
+
+      } );
+
+      scene.add( gltf.scene );
+
+      roughnessMipmapper.dispose();
+
+      render();
+
+    } );
+
+  } );
+
+  renderer = new THREE.WebGLRenderer( { antialias: true } );
+  renderer.setPixelRatio( window.devicePixelRatio );
+  renderer.setSize( window.innerWidth, window.innerHeight );
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 0.8;
+  renderer.outputEncoding = THREE.sRGBEncoding;
+  container.appendChild( renderer.domElement );
+
+  var pmremGenerator = new THREE.PMREMGenerator( renderer );
+  pmremGenerator.compileEquirectangularShader();
+
+  controls = new OrbitControls( camera, renderer.domElement );
+  controls.addEventListener( 'change', render ); // use if there is no animation loop
+  controls.minDistance = 2;
+  controls.maxDistance = 10;
+  controls.target.set( 0, 0, - 0.2 );
+  controls.update();
+        
+  window.addEventListener( 'resize', onWindowResize, false );
+  
+  renderer.domElement.addEventListener( 'click', onClick, false );
+
 }
 
-.disp
-{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:space-evenly;
-}
+function onClick() {
 
-svg{
-  width:100%;
-  position:relative;
-}
-.holder{
-  position:absolute;
-  top: 100px;
-  width:100%;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-}
-.heading{
-  font-size:40px;
-  font-weight:500;
-  margin:5px;
-  z-index:1;
-  width:100%;
-  color:#f5f6fa;
-  text-align:center;
-}
-.tagline{
-  font-size: 15px;
-  font-weight: 200;
-  width: 100%;
-  color:#f5f6fa;
-  text-align:center;
-}
-@media screen and (max-width: 992px) {
-  .heading
-  {
-  	font-size:20px
+  event.preventDefault();
+
+  mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+  mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+
+  raycaster.setFromCamera( mouse, camera );
+
+  var intersects = raycaster.intersectObjects( scene.children, true );
+
+  if ( intersects.length > 0 ) {
+
+    console.log( 'Intersection:', intersects[ 0 ] );
+
   }
-  .img2
-  {
-  	width:250px;
-  	height:350px;
-  }
+
 }
 
-	</style>
-	</head>
-	<body>
+function onWindowResize() {
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" preserveAspectRatio="none">
-<defs>
-    <linearGradient id="myGradient" gradientTransform="rotate(45)">
-      <stop offset="5%"  stop-color="#fc6767" />
-      <stop offset="95%" stop-color="#ec008c" />
-    </linearGradient>
-  </defs>
-  <path d="M 0,0
-         L 0,250
-         Q 750,500 1500,250
-         L 1500, 0
-         Z" fill="url('#myGradient')" />
-</svg>
-<div class="holder">
-  <p class="heading">Dearest Shiv,
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
 
-HAPPY BIRTHDAY</p>
-  <p class="tagline">
-  	This book is a small gift we present to the most adorable <br>
-  	yet the most notorious kid (not a kid anymore tho!), SHIVAM SINHA...<br>
+  renderer.setSize( window.innerWidth, window.innerHeight );
+  
+  render();
 
-  	Wish you a wonderful 20th, Enjoy 
-<br>
-We wish you all the success and prosperity.
-<br>
-May you get whatever you wish for 
-<br>
-Loads of love
-  </p>
-</div>
+}
 
-	<h1 class="disp">
-		CLICK THE PIC
-	</h1>
-<a href="https://drive.google.com/file/d/1i1ESMAkva0sXbv8p4MhuwtwkbSrRK4hv/view?usp=sharing">
-<div class="disp">
-<img src="./shivam.jpeg" class="img2">
-</div>
-</a>
-<br><br><br><br>
+//
 
-	
-		  <embed frameborder="0" width="100%" height="480" src="./pdf.pdf">
- 		 </embed>
+function render() {
 
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-	</body>
+  renderer.render( scene, camera );
+
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
+<script src="statics/js/app.js"></script>
+</body>
 </html>
